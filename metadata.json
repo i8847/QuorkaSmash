@@ -1,0 +1,6 @@
+{
+  "name": "Quorka Smash",
+  "description": "A cute and chaotic browser table-tennis arcade game where you rally a deranged Stray Kids-inspired Quorka creature with real-time physics and AI commentary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

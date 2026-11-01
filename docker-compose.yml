@@ -1,0 +1,11 @@
+services:
+  quorka-smash:
+    build: .
+    container_name: quorka-smash
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
